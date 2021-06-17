@@ -10,17 +10,3 @@
   <link rel='stylesheet' href='/Content/app.css' />
 </head>
 <body>
-<%- include('./partials/header.ejs') %>
-
-<div class="container">
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
-<pre><%= error.stack %></pre>
-</div>
-
-<%- include('./partials/footer.ejs') %>
-<script src="/jquery/dist/jquery.min.js"></script>
-  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="/Scripts/app.js"></script>
-</body>
-</html>
